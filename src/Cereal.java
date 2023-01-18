@@ -39,101 +39,101 @@ public class Cereal{
         return this.name;
     }
 
-    public void setName(String name){
-        this.name = name;
+    public void setType(char type){
+        this.type = type;
     }
-    public String getName(){
-        return this.name;
-    }
-
-    public void setName(String name){
-        this.name = name;
-    }
-    public String getName(){
-        return this.name;
+    public char getType(){
+        return this.type;
     }
 
-    public void setName(String name){
-        this.name = name;
+    public void setCalories(int calories){
+        this.calories = calories;
     }
-    public String getName(){
-        return this.name;
-    }
-
-    public void setName(String name){
-        this.name = name;
-    }
-    public String getName(){
-        return this.name;
+    public int getCalories(){
+        return this.calories;
     }
 
-    public void setName(String name){
-        this.name = name;
+    public void setProtein(int protein){
+        this.protein = protein;
     }
-    public String getName(){
-        return this.name;
-    }
-
-    public void setName(String name){
-        this.name = name;
-    }
-    public String getName(){
-        return this.name;
+    public int getProtein(){
+        return this.protein;
     }
 
-    public void setName(String name){
-        this.name = name;
+    public void setFat(int fat){
+        this.fat = fat;
     }
-    public String getName(){
-        return this.name;
-    }
-
-    public void setName(String name){
-        this.name = name;
-    }
-    public String getName(){
-        return this.name;
+    public int getFat(){
+        return this.fat;
     }
 
-    public void setName(String name){
-        this.name = name;
+    public void setSodium(int sodium){
+        this.sodium = sodium;
     }
-    public String getName(){
-        return this.name;
-    }
-
-    public void setName(String name){
-        this.name = name;
-    }
-    public String getName(){
-        return this.name;
+    public int getSodium(){
+        return this.sodium;
     }
 
-    public void setName(String name){
-        this.name = name;
+    public void setFiber(int fiber){
+        this.fiber = fiber;
     }
-    public String getName(){
-        return this.name;
-    }
-
-    public void setName(String name){
-        this.name = name;
-    }
-    public String getName(){
-        return this.name;
+    public int getFiber(){
+        return this.fiber;
     }
 
-    public void setName(String name){
-        this.name = name;
+    public void setCarbs(int carbohydrates){
+        this.carbohydrates = carbohydrates;
     }
-    public String getName(){
-        return this.name;
+    public int getCarbs(){
+        return this.carbohydrates;
     }
 
-    public void setName(String name){
-        this.name = name;
+    public void setSugar(int sugar){
+        this.sugar = sugar;
     }
-    public String getName(){
-        return this.name;
+    public int getSugar(){
+        return this.sugar;
+    }
+
+    public void setPotassium(int potassium){
+        this.potassium = potassium;
+    }
+    public int getPotassium(){
+        return this.potassium;
+    }
+
+    public void setVitamins(int vitamins){
+        this.vitamins = vitamins;
+    }
+    public int getVitamins(){
+        return this.vitamins;
+    }
+
+    public void setShelf(int shelf){
+        this.shelf = shelf;
+    }
+    public int getShelf(){
+        return this.shelf;
+    }
+
+    public void setWeight(int weight){
+        this.weight = weight;
+    }
+    public int getWeight(){
+        return this.weight;
+    }
+
+    public void setCups(double cups){
+        this.cups = cups;
+    }
+    public double getCups(){
+        return this.cups;
+    }
+
+    public void setRating(double rating){
+        this.rating = rating;
+    }
+    public double getRating(){
+        return this.rating;
     }
 }
